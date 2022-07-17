@@ -1,0 +1,52 @@
+
+<html>
+<style>
+body{
+            background-color: #91d1ff;
+        }
+</style>
+
+<body>
+<div id="gallery-text">
+
+    <div id="gallery-text-left" style="float:left">
+    <p id="gallery-text-quote-left" style="font-family:Century Gothic; color: blue"><b>Program in C</b></p> 
+<p id="gallery-text-quote-left" style="font-family:Century Gothic; color: red"><b>The given number is Amstrong number or not</b></p> 
+    <p id="gallery-paragraph-1" style="font-family:Georgia">
+    #include &lt; stdio.h&gt;<br>
+#include&lt;conio.h&gt;<br>
+int main()<br>
+{<br>
+    int n1, n2, i, temp, rem, sum, prod;<br>
+    printf("Enter the value of n1 (starting three-digit number): ");<br>
+    scanf("%d", &n1);<br>
+    printf("Enter the value of n2 (ending three-digit number): ");<br>
+    scanf("%d", &n2);<br>
+    printf("\n");<br>
+    for(i=n1; i<=n2; i++)<br>
+    {<br>
+        &nbsp; sum = 0;<br>
+        &nbsp; temp = i;<br>
+        &nbsp; while(temp>0)<br>
+        &nbsp; {<br>
+          &nbsp; &nbsp;   rem = temp%10;<br>
+           &nbsp; &nbsp;  sum = sum + (rem*rem*rem);<br>
+           &nbsp; &nbsp;  temp = temp/10;<br>
+        &nbsp; }<br>
+        &nbsp; if(sum == i)<br>
+          &nbsp; &nbsp;   printf("%d is an Armstrong number.\n", i);<br>
+    }<br>
+    getch();<br>
+    return 0;<br>
+}<br>
+<center><a href="file:///C:/Users/G%20ESWARA%20VARA%20PRASAD/Desktop/tech1/q1.html"> Back</a></center>
+
+    </p>
+    </div>
+
+
+
+   
+</div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+
+<html>
+<style>
+body{
+            background-color: #91d1ff;
+        }
+</style>
+
+<body>
+<div id="gallery-text">
+
+    <div id="gallery-text-left" style="float:left">
+    <p id="gallery-text-quote-left" style="font-family:Century Gothic; color: blue"><b>Program in C</b></p> 
+    <p id="gallery-text-quote-left" style="font-family:Century Gothic; color: red"><b>The given number is prime number or not</b></p> 
+    <p id="gallery-paragraph-1" style="font-family:Georgia">
+    #include &lt;stdio.h&gt;<br>
+
+int main()<br>
+ {<br>
+
+  int n, i, flag = 0;<br>
+  printf("Enter a positive integer: ");<br>
+  scanf("%d", &n);<br>
+
+  
+  if (n == 0 || n == 1)<br>
+    &nbsp;flag = 1;<br>
+
+  for (i = 2; i <= n / 2; ++i)<br>
+ {<br>
+
+   
+   &nbsp; if (n % i == 0)<br>
+  &nbsp;{<br>
+     &nbsp;&nbsp; flag = 1;<br>
+     &nbsp;&nbsp; break;<br>
+   &nbsp; }<br>
+  }<br>
+
+  
+  if (flag == 0)<br>
+    &nbsp;printf("%d is a prime number.", n);<br>
+  else<br>
+   &nbsp; printf("%d is not a prime number.", n);<br>
+
+  return 0;<br>
+}<br>
+
+<center><a href="file:///C:/Users/G%20ESWARA%20VARA%20PRASAD/Desktop/tech1/q1.html"> Back</a></center>
+    </p>
+    </div>
+
+    
+</div>
+</body>
+</html>
